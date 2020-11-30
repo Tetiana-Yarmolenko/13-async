@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Homework 13 async </title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+  <!-- <link rel="stylesheet" href="styles.css" /> -->
+</head>
+
+<body>
+<form class="search-form" id="search-form">
+  <input type="text" id="search-form_input" name="query" autocomplete="off" placeholder="Search images..." class="search-input" />
+  <button type="submit" class="search-form__btn">Search</button>
+</form>
+<!-- Список <li> с карточками изображений -->
+<ul class="gallery"></ul>
+
+<div id="sentinel"></div>
+<button type="button" class="btn is-hidden" data-action="load-more">
+  <span class="label">Load-more</span>
+</button>
+
+</body>
+
+</html>
